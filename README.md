@@ -11,6 +11,20 @@ reload extension's service worker using `chrome.runtime.reload()`.
 4. Open extension popup
 5. Click `Reload Runtime` button
 
+<details>
+ <summary>Working demo (Chromium 133)</summary>
+
+https://github.com/user-attachments/assets/7b429d33-aeb9-4432-9f8a-917a51b770b9
+  
+</details>
+
+<details>
+ <summary>Demo with the bug (Chromium 134)</summary>
+
+https://github.com/user-attachments/assets/374ec01b-2e16-4c19-9ead-f8cee7225394
+  
+</details>
+
 ## Observed behavior
 
 Extension is turned off in the extensions management page and in order to enable it again extension's developer mode should be enabled by hand
